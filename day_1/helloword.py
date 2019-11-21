@@ -43,3 +43,9 @@ print("Data type of ['Asabeneh', 'Python', 'Finland'] is : ",
 print('Data type of first_name is : ', type(first_name))
 print('Data type of last_name is : ', type(last_name))
 print('Data type of country is : ', type(country))
+
+
+a = 1
+b = 1, 2, 3
+x = a, b
+print(type(x))
