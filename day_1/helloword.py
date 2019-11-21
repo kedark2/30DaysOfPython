@@ -3,7 +3,6 @@ import sys
 print('*'*25, 'Question 1', '*'*25)
 print('The python version of this system is : ', sys.version[:6])
 
-
 num_1 = 8
 num_2 = 2
 print('First number is : ', num_1)
@@ -43,9 +42,3 @@ print("Data type of ['Asabeneh', 'Python', 'Finland'] is : ",
 print('Data type of first_name is : ', type(first_name))
 print('Data type of last_name is : ', type(last_name))
 print('Data type of country is : ', type(country))
-
-
-a = 1
-b = 1, 2, 3
-x = a, b
-print(type(x))
